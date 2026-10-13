@@ -1,0 +1,1 @@
+require('dotenv').config();const path=require('node:path');module.exports={port:Number(process.env.PORT||3000),sessionSecret:process.env.SESSION_SECRET||'dev-only-change-this-session-secret',dbPath:process.env.DB_PATH||path.join(__dirname,'data','inventory.sqlite')};
