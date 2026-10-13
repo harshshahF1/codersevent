@@ -1,0 +1,1 @@
+node_modules/\ndata/*.sqlite\ndata/*.sqlite-shm\ndata/*.sqlite-wal\n.env\n.DS_Store
